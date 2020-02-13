@@ -1,0 +1,25 @@
+DEPENDENCIES
+  ELK_cookbook
+    git: git@github.com:jfarmer864/ELK_cookbook.git
+    revision: 65fece050b6526e0eb2797a8d59a660f94a54f05
+  client_cookbook
+    git: git@github.com:jfarmer864/client_cookbook.git
+    revision: 2320983d5d65e6e7cd6b265dd3c8f043c39f0173
+
+GRAPH
+  ELK_cookbook (0.1.0)
+    elasticsearch (<= 2.3.5)
+  apt (7.2.0)
+  ark (5.0.0)
+    seven_zip (>= 0.0.0)
+  chef-sugar (5.1.8)
+  client_cookbook (0.1.0)
+  elasticsearch (2.3.2)
+    apt (>= 0.0.0)
+    ark (>= 0.0.0)
+    chef-sugar (>= 0.0.0)
+    yum (>= 0.0.0)
+  seven_zip (3.1.2)
+    windows (>= 0.0.0)
+  windows (6.0.1)
+  yum (5.1.0)
